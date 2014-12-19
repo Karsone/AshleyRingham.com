@@ -1,5 +1,5 @@
 
-$hoverColor:#ccc;
+$hoverColor:#ef6782;
 
 html {
   box-sizing: border-box;
@@ -68,20 +68,20 @@ p{
 			}
 		}
 		.logo{
-			background:#c44d58;
+			background:#fff;
 			border-radius:50%;
 			width:200px;
 			a{
 				position: relative;
 				width:200px;
-				background:#c44d58;
+				background:#fff;
 				border-radius:50%;
 				img{
 					position:absolute;
 					top:-100px;
 					left:0;
 					right:0;
-					background:#c44d58;
+					background:#fff;
 					border-radius:50%;
 				}
 			}
@@ -112,6 +112,13 @@ p{
 
 .smallHeader{
 	background:#c44d58;
+		background:url('../images/bg.jpg') no-repeat top center;
+		background-size:cover;
+		-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	 -moz-animation: fadein 2s; /* Firefox < 16 */
+	 -ms-animation: fadein 2s; /* Internet Explorer */
+	 -o-animation: fadein 2s; /* Opera < 12.1 */
+	 animation: fadein 2s;
 	.mainNavigation{
 		border:none;
 	}
@@ -125,8 +132,7 @@ p{
 	right:0;
 	bottom:0; 
 	background:#c44d58;
-	// background:url('https://placekitten.com/g/1200/600') no-repeat center center;
-
+	background:url('../images/bg.jpg') no-repeat center center;
 	background-size:cover;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
  -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -187,6 +193,7 @@ p{
 	  -ms-transition: opacity 100ms ease-in-out;
 	  -o-transition: opacity 100ms ease-in-out;
 	  transition: opacity 100ms ease-in-out;
+	  border-radius:50%;
 		}
 		span{
 			margin-top: 20px;

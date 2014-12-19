@@ -55,7 +55,7 @@ p {
   padding-bottom: 10px;
 }
 .mainNavigation ul li a:hover {
-  color: #ccc;
+  color: #ef6782;
 }
 .mainNavigation ul li ul {
   padding: 0;
@@ -68,14 +68,14 @@ p {
   padding: 0;
 }
 .mainNavigation ul .logo {
-  background: #c44d58;
+  background: #fff;
   border-radius: 50%;
   width: 200px;
 }
 .mainNavigation ul .logo a {
   position: relative;
   width: 200px;
-  background: #c44d58;
+  background: #fff;
   border-radius: 50%;
 }
 .mainNavigation ul .logo a img {
@@ -83,7 +83,7 @@ p {
   top: -100px;
   left: 0;
   right: 0;
-  background: #c44d58;
+  background: #fff;
   border-radius: 50%;
 }
 
@@ -103,6 +103,17 @@ p {
 
 .smallHeader {
   background: #c44d58;
+  background: url("../images/bg.jpg") no-repeat top center;
+  background-size: cover;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s;
 }
 .smallHeader .mainNavigation {
   border: none;
@@ -116,6 +127,7 @@ p {
   right: 0;
   bottom: 0;
   background: #c44d58;
+  background: url("../images/bg.jpg") no-repeat center center;
   background-size: cover;
   -webkit-animation: fadein 2s;
   /* Safari, Chrome and Opera > 12.1 */
@@ -149,8 +161,8 @@ p {
   background: rgba(0, 0, 0, 0.8);
 }
 .headerBackground .container a:hover {
-  color: #ccc;
-  border: 2px solid #ccc;
+  color: #ef6782;
+  border: 2px solid #ef6782;
 }
 
 .intro {
@@ -173,6 +185,7 @@ p {
   -ms-transition: opacity 100ms ease-in-out;
   -o-transition: opacity 100ms ease-in-out;
   transition: opacity 100ms ease-in-out;
+  border-radius: 50%;
 }
 .items article span {
   margin-top: 20px;
@@ -189,7 +202,7 @@ p {
   right: 0;
 }
 .items article:hover {
-  color: #ccc;
+  color: #ef6782;
 }
 .items article:hover span {
   visibility: visible;
@@ -253,8 +266,8 @@ p {
   border: 2px solid #000;
 }
 .button:hover {
-  color: #ccc;
-  border: 2px solid #ccc;
+  color: #ef6782;
+  border: 2px solid #ef6782;
 }
 
 .textCenter {
