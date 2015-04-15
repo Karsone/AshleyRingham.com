@@ -87,6 +87,7 @@ header{
 	width: 100%;
 	background-color: #fff;
 	overflow: hidden;
+	box-shadow: 1px 1px 1px #ccc;
 }
 
 .navigation{
@@ -373,6 +374,10 @@ header{
 	position:relative;
 	z-index: 99;
 	text-align: center;
+}
+
+.space{
+	height: 100px;
 }
 
 /* Gallery Hover */
