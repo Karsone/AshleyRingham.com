@@ -1,7 +1,7 @@
 body{
 	font-family: "Raleway", sans-serif;  
 
-	opacity:0;
+/*	opacity:0;
 	-webkit-animation:fadeIn ease-in 500ms;
 	-moz-animation:fadeIn ease-in 500ms;
 	animation:fadeIn ease-in 500ms;
@@ -12,10 +12,10 @@ body{
 
 	-webkit-animation-duration:500ms;
 	-moz-animation-duration:500ms;
-	animation-duration:500ms;
+	animation-duration:500ms;*/
 }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+/*@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }*/
 
 .raleway{
 	font-family: 'raleway';
@@ -460,6 +460,25 @@ header{
 	display: table-cell;
 }
 
+.social{
+text-align: center;
+margin-bottom:80px;
+}
+
+.social ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+.social ul li{
+	display:inline-block;
+}
+
+.social ul li a{
+	display:inline-block;
+}
+
 /* header animation */
 
 .header {
@@ -468,11 +487,37 @@ header{
 }
 
 
+
 /* ----form styles----- */
 
 
+input,textarea{
+	width:100% !important;
+	padding:10px;
+	border:3px solid #000;
+	font-size:24px;
+	margin-top:8px;
+	margin-bottom:8px;
+}
 
+.form-line{
+	padding-top:30px;
+}
 
+.form-sub-label{
+	font-size:14px;
+	color:#666;
+}
+
+.form-submit-button{
+	padding:10px;
+	width:100%;
+	border:3px solid #000;
+	background:#fff;
+	font-family: 'Crimson Text', serif;
+	font-size:30px;
+	font-style: italic;
+}
 
 
 /* media queries */
