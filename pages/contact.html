@@ -23,24 +23,13 @@
 
 		<div class="navigation">
 
-			<nav class="main-nav">
+			<nav class="main-nav nav-collapse">
 					<ul>
-						<li><a href="about.html">ABOUT</a></li>
-						<li><a href="portfolio.html">PORTFOLIO</a></li>
-						<li><a href="contact.html">CONTACT</a></li>
-						<li><a href="https://www.behance.net/ashleyringham">
-								<img src="../assets/images/behance.svg" class="behance">
-							</a>
-							<a href="https://www.linkedin.com/pub/ashley-ringham/9a/79a/b2a">
-								<img src="../assets/images/linkedin.svg" class="linkedin">
-							</a>
-							<a href="https://www.pinterest.com/ashringham/">
-								<img src="../assets/images/pinterest.svg" class="pinterest">
-							</a>
-							<a href="https://instagram.com/ashringham/">
-								<img src="../assets/images/insta.svg" class="insta">
-							</a>
-						</li>
+						<li><a href="pages/about.html">ABOUT</a></li>
+						<li>/</li>
+						<li><a href="pages/portfolio.html">PORTFOLIO</a></li>
+						<li>/</li>
+						<li><a href="pages/contact.html">CONTACT</a></li>
 					</ul>
 			</nav> <!--main-nav-->
 			
@@ -62,34 +51,93 @@
 	        <h3>604.300.0893</h3>
 	    </div> <!--title-->
 
-		<form>
-			<label>
-				<span> Name: </span>
-				<input id="name" type="text" name="name" placholder="Your Full Name"><br>
-			</label>
+	    <script src="http://d2g9qbzl5h49rh.cloudfront.net/static/prototype.forms.js" type="text/javascript"></script>
+	    <script src="http://d2g9qbzl5h49rh.cloudfront.net/static/jotform.forms.js?3.2.6690" type="text/javascript"></script>
+	    <script type="text/javascript">
+	       JotForm.init(function(){
+	          setTimeout(function() {
+	              $('input_16').hint('ex: myname@example.com');
+	           }, 20);
+	          JotForm.onSubmissionError="jumpToSubmit";
+	       });
+	    </script>
+	    <!-- <link href="http://d2g9qbzl5h49rh.cloudfront.net/static/formCss.css?3.2.6690" rel="stylesheet" type="text/css" /> -->
+	    <!-- <link type="text/css" rel="stylesheet" href="http://d2g9qbzl5h49rh.cloudfront.net/css/styles/nova.css?3.2.6690" /> -->
+	    <!-- <link type="text/css" media="print" rel="stylesheet" href="http://d2g9qbzl5h49rh.cloudfront.net/css/printForm.css?3.2.6690" /> -->
 
-			<label>
-				<span>Email:</span>
-				<input id="email" type="text" name="email" placholder="Email Address"><br>
-			</label>
+	    <link type="text/css" rel="stylesheet" href="http://d2g9qbzl5h49rh.cloudfront.net/css/responsive.css?3.2.6690" />
+	    <form class="jotform-form" action="http://submit.jotform.ca/submit/51040281343240/" method="post" name="form_51040281343240" id="51040281343240" accept-charset="utf-8">
+	      <input type="hidden" name="formID" value="51040281343240" />
+	      <div class="form-all railway">
+	        <ul class="form-section page-section">
+	          <li class="form-line jf-required" data-type="control_email" id="id_16">
+	            <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16">
+	              Name
+	            </label>
+	            <div id="cid_16" class="form-input-wide jf-required">
+	              <input class="form-textbox" type="text" size="10" name="q15_yourName[first]" id="first_15" />
+	              <label class="form-sub-label" for="first_15" id="sublabel_first" style="min-height: 13px;"> First Name </label>
+	            </div>
+	          </li>
 
-			<label>
-				<span>Subject:</span>
-				<input type="text" name="subject" placholder="Subject"><br>
-			</label>
+	          <li class="form-line jf-required" data-type="control_email" id="id_16">
+	            <div id="cid_16" class="form-input-wide jf-required">
+	              <input class="form-textbox" type="text" size="15" name="q15_yourName[last]" id="last_15" />
+	              <label class="form-sub-label" for="last_15" id="sublabel_last" style="min-height: 13px;"> Last Name </label>
+	            </div>
+	          </li>
 
-			</label>
-				<span>Message:</span>
-				<textarea id="message" name="message" placeholder="Message goes here"></textarea>
-			<label>
+	          <li class="form-line jf-required" data-type="control_email" id="id_16">
+	            <label class="form-label form-label-top form-label-auto" id="label_16" for="input_16">
+	              E-mail Address
+	              <span class="form-required">
+	                *
+	              </span>
+	            </label>
+	            <div id="cid_16" class="form-input-wide jf-required">
+	              <input type="email" class=" form-textbox validate[required, Email]" id="input_16" name="q16_yourEmail16" size="32" value="" />
+	            </div>
+	          </li>
 
-			<label>
-			<input type="submit" value="Submit">
-			</label>
 
-		</form>
+	          <li class="form-line" data-type="control_textarea" id="id_17">
+	            <label class="form-label form-label-top form-label-auto" id="label_17" for="input_17"> Your Message </label>
+	            <div id="cid_17" class="form-input-wide jf-required">
+	              <textarea id="input_17" class="form-textarea" name="q17_yourMessage" cols="60" rows="9"></textarea>
+	            </div>
+	          </li>
+	          <li class="form-line" data-type="control_button" id="id_14">
+	            <div id="cid_14" class="form-input-wide">
+	              <div style="text-align:center" class="form-buttons-wrapper">
+	                <button id="input_14" type="submit" class="form-submit-button">
+	                  Submit
+	                </button>
+	              </div>
+	            </div>
+	          </li>
+	          <li style="display:none">
+	            Should be Empty:
+	            <input type="text" name="website" value="" />
+	          </li>
+	        </ul>
+	      </div>
+	      <input type="hidden" id="simple_spc" name="simple_spc" value="51040281343240" />
+	      <script type="text/javascript">
+	      document.getElementById("si" + "mple" + "_spc").value = "51040281343240-51040281343240";
+	      </script>
+	    </form>
 
+		<div class="clearfix"></div>	
 	</div> <!--contactform-->
+
+
+	<div class="social">
+		<ul>
+			<li><a href="https://www.behance.net/ashleyringham" target="_blank"><img src="/assets/images/behance.png"></a></li>
+			<li><a href="https://www.linkedin.com/pub/ashley-ringham/9a/79a/b2a" target="_blank"><img src="/assets/images/linkedin.png"></a></li>
+			<li><a href="https://instagram.com/ashringham/" target="_blank"><img src="/assets/images/instagram.png"></a></li>
+		</ul>
+	</div>
 
 
 	<footer>
