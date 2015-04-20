@@ -328,28 +328,28 @@ header{
 	margin-top: 35px;
 	margin-bottom: 35px;
 	padding: 0;
+	text-align: center;
 }
 
 
 .images{
-	max-width: 1100px;
-	background-color: #ccc;
+	max-width: 100%;
 	margin-bottom: 25px;
-	height: 600px;
 }
 
 .description{
-	width: 30%;
-	height: 200px;
+	width: 100%;
     padding: 0px;
-    margin: 1%;
-    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 75px;
+    display: block;
     vertical-align: top;
+    text-align: center;
 }
 
 .description h3{
 
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .about{
@@ -406,20 +406,20 @@ header{
 }
 
 .image-overlay .headline{
+	text-transform: uppercase;
+	font-weight: 600;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-family: 'Crimson Text', serif;
-	font-style: italic;
 	font-size: 22px;
 	letter-spacing: 2px;
-	font-weight: 400;
 	color: #000;
 	letter-spacing: 1px;
 	text-align: center;
 }
 
 .image-overlay .bottom{
-	text-transform: uppercase;
+	font-family: 'Crimson Text', serif;
+	font-style: italic;
 	letter-spacing: 2px;
 	font-weight: 600;
 	font-size: 14px;
@@ -554,13 +554,31 @@ input,textarea{
 @media screen and (max-width: 795px) {
 
 
+		.banner-box-text h1{
+			font-size:50px;
+			letter-spacing: 3px;
+		}
+
+		.banner-box-text .railway.big{
+			font-size: 18px;
+			letter-spacing: 2px;
+		}
+
+		.banner-box-text .crimson{
+			font-size: 18px;
+			letter-spacing: 2px;
+		}
+
+		.banner-box{
+			line-height: 1.6em;
+		}
+
+
+
     .thumbnail {
                 width: 45%;
     }
 
-    .description{
-                width: 45%;
-    }
 
     .main-nav ul li{
 		display: block;
