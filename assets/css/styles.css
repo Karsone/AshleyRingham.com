@@ -346,8 +346,11 @@ header{
 
 
 .images{
-	max-width: 100%;
 	margin-bottom: 25px;
+}
+
+.images img{
+	max-width: 100%;
 }
 
 .description{
