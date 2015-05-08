@@ -90,6 +90,7 @@ header{
 	box-shadow: 1px 1px 1px #ccc;
 }
 
+
 .navigation{
 	display: inline;
 	float: right;
@@ -332,13 +333,10 @@ header{
 }
 
 .fullimage img{
-	max-width: 100%;
-	margin: 0 auto;
-	display: block;
+	width: 100%;
 }
 
 .descriptionBG{
-	margin-top: 50px;
 	margin-bottom: 75px;
 	padding: 25px;
 	background-color: #FFB98D;
@@ -392,7 +390,7 @@ header{
 }
 
 .space{
-	height: 100px;
+	height: 80px;
 }
 
 .serviceList{
@@ -414,6 +412,7 @@ header{
 
 .quarterGrid img{
 	width: 250px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -629,6 +628,8 @@ input,textarea{
 		text-align: center;
 		margin: 0 auto;
 	}
+
+    
 
 
 }
