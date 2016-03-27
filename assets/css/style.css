@@ -1,2 +1,17 @@
-body {
-  background: red; }
+/*!
+ * Bootstrap v4.0.0-alpha.2 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+.hero {
+  background: #a2e6da;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a2e6da 0%, #ffb0b6 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a2e6da 0%, #ffb0b6 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a2e6da 0%, #ffb0b6 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2e6da', endColorstr='#ffb0b6',GradientType=0 );
+  /* IE6-9 */
+  background-attachment: fixed; }
