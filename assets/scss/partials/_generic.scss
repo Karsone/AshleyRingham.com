@@ -5,6 +5,10 @@ body{
   font: 400 14px/1.8 "Raleway", sans-serif;
 }
 
+a,a:visited{
+  color:#ffb1b8;
+}
+
 h1{
   font-family: "Raleway";
   font-weight: 700;
@@ -19,9 +23,19 @@ h1{
 }
 
 h2{
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 32px;
+  @include breakpoint(lg) {
+    letter-spacing: 12px;
+  }  
+}
+
+h3{
   font-family: "Playfair Display";
   font-weight: 400;
-  font-style: italic;
   line-height: 2;
   letter-spacing: 3px;
   font-size: 22px;
@@ -29,9 +43,7 @@ h2{
   padding:0;
 }
 
-h3{
-  
-}
+
 
 h4{
   margin:0;
@@ -48,6 +60,17 @@ h5{
   letter-spacing: 4px;
   font-size: 16px;
 }
+
+h6{
+  font-family: "Playfair";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #999;
+  font-size: 20px;
+  margin: 0;
+}
+
 .gradient{
   background: #a2e6da; /* Old browsers */
   background: -moz-linear-gradient(top,  #a2e6da 25%, #ffb0b6 75%); /* FF3.6-15 */
@@ -56,6 +79,11 @@ h5{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2e6da', endColorstr='#ffb0b6',GradientType=0 ); /* IE6-9 */
   background-attachment: fixed;
   background-size:100%;
+}
+
+.shapes{
+  background: url('/assets/images/geopattern3.png') repeat;
+  background-attachment: fixed;
 }
 
 .full-height{
@@ -69,6 +97,17 @@ hr{
   margin:1em auto;
   &.hr-pink{
     background:#ffb1b8;
+  }
+  &.hr-blue{
+    background: #a6e5d8;
+  }
+}
+
+.btn-pink{
+  background-color: #ffb1b8;
+  color:#fff !important;
+  &:hover{
+    background: #a6e5d8;
   }
 }
 
@@ -90,4 +129,72 @@ hr{
       max-width:90%;
     }
   }
+}
+
+.blog-item{
+  margin:auto;
+  background:#fff;
+  border:3px solid #000;
+  border-radius: 0;
+  padding:3em 1.5em;
+  .category{
+    text-transform: uppercase;
+  }
+  .title{
+    margin:1em;
+    font-size: 1.5em;
+  }
+}
+
+.goForScroll{
+  position: absolute;
+  bottom:100px;
+  left:50%;
+  transform: translate(-50%);
+}
+
+
+.navbar{
+  padding-top:20px;
+  .logo{
+    color:#000;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  li a{
+    color:#000;
+    font-size:0.9em;
+  }
+}
+
+img {
+    width: 100%;
+}
+
+section{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+// Font Stuff
+&.white{
+  color:#fff;
+}
+&.em{
+  font-style: italic;
+}
+.raleway{
+  font-family: "Raleway";
+}
+
+.playfair{
+  font-family: "Playfair";
+  font-style: italic;
+}
+
+.playfair-display{
+  font-family: "Playfair Display";
+  font-style: italic;
 }

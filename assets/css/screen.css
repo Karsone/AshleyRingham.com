@@ -8,6 +8,9 @@
 body {
   font: 400 14px/1.8 "Raleway", sans-serif; }
 
+a, a:visited {
+  color: #ffb1b8; }
+
 h1 {
   font-family: "Raleway";
   font-weight: 700;
@@ -21,9 +24,18 @@ h1 {
       letter-spacing: 15px; } }
 
 h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 32px; }
+  @media (min-width: 1200px) {
+    h2 {
+      letter-spacing: 12px; } }
+
+h3 {
   font-family: "Playfair Display";
   font-weight: 400;
-  font-style: italic;
   line-height: 2;
   letter-spacing: 3px;
   font-size: 22px;
@@ -44,6 +56,15 @@ h5 {
   letter-spacing: 4px;
   font-size: 16px; }
 
+h6 {
+  font-family: "Playfair";
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #999;
+  font-size: 20px;
+  margin: 0; }
+
 .gradient {
   background: #a2e6da;
   /* Old browsers */
@@ -58,6 +79,10 @@ h5 {
   background-attachment: fixed;
   background-size: 100%; }
 
+.shapes {
+  background: url("/assets/images/geopattern3.png") repeat;
+  background-attachment: fixed; }
+
 .full-height {
   height: 928px; }
 
@@ -68,6 +93,14 @@ hr {
   margin: 1em auto; }
   hr.hr-pink {
     background: #ffb1b8; }
+  hr.hr-blue {
+    background: #a6e5d8; }
+
+.btn-pink {
+  background-color: #ffb1b8;
+  color: #fff !important; }
+  .btn-pink:hover {
+    background: #a6e5d8; }
 
 .hero {
   width: 100%;
@@ -85,5 +118,62 @@ hr {
       .hero .hero-box {
         max-width: 90%; } }
 
+.blog-item {
+  margin: auto;
+  background: #fff;
+  border: 3px solid #000;
+  border-radius: 0;
+  padding: 3em 1.5em; }
+  .blog-item .category {
+    text-transform: uppercase; }
+  .blog-item .title {
+    margin: 1em;
+    font-size: 1.5em; }
+
+.goForScroll {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%); }
+
+.navbar {
+  padding-top: 20px; }
+  .navbar .logo {
+    color: #000;
+    font-style: normal;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1.5em; }
+  .navbar li a {
+    color: #000;
+    font-size: 0.9em; }
+
+img {
+  width: 100%; }
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.white {
+  color: #fff; }
+
+.em {
+  font-style: italic; }
+
+.raleway {
+  font-family: "Raleway"; }
+
+.playfair {
+  font-family: "Playfair";
+  font-style: italic; }
+
+.playfair-display {
+  font-family: "Playfair Display";
+  font-style: italic; }
+
 .jumbotron h1 {
   font-size: 34px; }
+
+.btn {
+  border: 0; }
