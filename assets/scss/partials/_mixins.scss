@@ -19,3 +19,8 @@
     @warn "Breakpoint mixin supports: xs, sm, md, lg";
   }
 }
+
+
+%default-animation{
+  -webkit-transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);@extend %default-animation;transition: all 0.3s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
